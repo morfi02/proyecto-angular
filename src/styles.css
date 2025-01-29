@@ -1,0 +1,52 @@
+body{
+    background-image: url(./assets/images/bg-stars.svg);
+    
+}
+
+footer{
+    background-image: url(./assets/images/pattern-hills.svg);
+
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 0%;
+    width: 30%;
+}
+
+
+img{
+    height: 30px;
+    margin: 30px;
+}
+.d-flex{
+   
+    }
+    .flex-fill{
+        position: absolute;
+        width: 60%;
+        left: 350px;  
+        top: 200px; 
+        padding: 10px;
+    }
+    gifs-pagina-principal img {
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+      }
+      gifs-pagina-principal {
+        width: 50%;
+        min-height: 100px; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+  
+  

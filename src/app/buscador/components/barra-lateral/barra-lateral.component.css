@@ -1,0 +1,7 @@
+#barra-lateral {
+    height: 100vh;
+    width: 250px;
+    position: absolute;
+    left: 10px;  
+    top: 10px;
+}

@@ -1,0 +1,6 @@
+sidebar==barra_lateral
+shared==buscador
+gifs==gifs
+home==principal
+homepage==pagina_principal
+searchBox==caja_busqueda

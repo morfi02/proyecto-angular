@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">-->
+  <link rel="stylesheet" href="../styles.css">
+  <!--<link rel="stylesheet" href="./sass/custom.css">-->
+  <link rel="stylesheet" href="../sass/reducido.css">
+  <title>Frontend Mentor | Launch countdown timer</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+-->
+</head>
+
+<body data-bs-theme="dark">
+
+  
+   
+  <div class="title fw-bold font-lilita_one">W E ' R E &nbsp L A U N C H I N G &nbsp S O O N</div>
+
+  <div class="contador">
+
+      <div class="tarjeta">
+        <div class="tiempo form-floating">
+          <div class="line mw-100"></div>
+          <span class="dias fs-2cm text-center">08</span>
+        </div>
+        <span class="label">DAYS</span>
+      </div>
+
+      <div class="tarjeta">
+        <div class="tiempo form-floating">
+          <div class="line mw-100"></div>
+          <span class="horas fs-2cm text-center">23</span>
+        </div>
+        <span class="label">HOURS</span>
+      </div>
+
+      <div class="tarjeta">
+        <div class="tiempo form-floating">
+          <div class="line mw-100"></div>
+          <span class="minutos fs-2cm text-center">55</span>
+        </div>
+        <span class="label">MINUTES</span>
+      </div>
+
+      <div class="tarjeta">
+        <div class="tiempo form-floating">
+          <div class="line mw-100"></div>
+          <span class="segundos fs-2cm text-center">41</span>
+        </div>
+        <span class="label">SECONDS</span>
+      </div>
+  </div>
+ 
+  <div class="d-flex">
+    <!-- Sidebar -->
+    <buscador-barra-lateral></buscador-barra-lateral>
+    <!-- Página de Inicio -->
+    <gifs-pagina-principal class="flex-fill"></gifs-pagina-principal>
+  </div>
+
+  <footer class="fixed-bottom h-20">
+    <div id="div-footer">
+      <img src="../assets/images/icon-facebook.svg" alt="icon-facebook">
+      <img src="../assets/images/icon-pinterest.svg" alt="icon-pinterest">
+      <img src="../assets/images/icon-instagram.svg" alt="icon-instagram">
+    </div>
+  </footer>
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>

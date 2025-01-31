@@ -10,6 +10,7 @@ footer{
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 #div-footer{
@@ -25,9 +26,7 @@ img{
     height: 30px;
     margin: 30px;
 }
-.d-flex{
-   
-    }
+
     .flex-fill{
         position: absolute;
         width: 60%;
